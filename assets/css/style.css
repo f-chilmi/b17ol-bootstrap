@@ -1,0 +1,135 @@
+@font-face {
+    font-family: metropolis;
+    src: url("../fonts/Metropolis-Regular.woff"), url("../fonts/Metropolis-SemiBold.woff2"), url("../fonts/Metropolis-Bold.woff"), url("../fonts/Metropolis-Bold.woff2");
+}
+body{
+    font-family: metropolis;
+}
+
+a{
+    color: #db3022;
+    font-family: metropolis;
+}
+
+a:hover{
+    color: #af2418;
+}
+ 
+.header .logo{
+    margin-bottom: 40px;
+}
+
+.header .message{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.switch{
+    margin-bottom: 40px;
+}
+
+.switch .btn{
+    height: 48px;
+    width: 123px;
+}
+
+.auth .btn-primary{
+    border-radius: 25px;
+    height: 48px;
+}
+
+.btn-primary, .btn-secondary:hover{
+    background: #db3022;
+    color: #fff;
+    border-color: #db3022;
+
+}
+
+.btn-secondary{
+    background: #fff;
+    color: #9b9b9b;
+    border-color: #9b9b9b;
+}
+
+.btn-primary:hover{
+    background: #af2418;
+    border-color: #af2418;
+}
+
+.auth-input{
+    width: 400px;
+}
+
+.auth-input .form-control{
+    margin-bottom: 18px;
+}
+
+.quest-wrapper{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav{
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+    margin-bottom: 40px;
+}
+
+.search-wrapper{
+    position: relative;
+}
+
+.search-wrapper .form-control{
+    width: 507px;
+    border: 1px solid #8E8E93;
+    border-radius: 23px;
+    height: 40px;
+}
+
+.search-wrapper img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.form-inline button{
+    border: 1px solid #8E8E93;
+    background: #FFFFFF;
+    border-radius: 12px;
+    height: 38px;
+    width: 38px;
+    margin-left: 5px;
+}
+
+.container .auth{
+    width: 20%;
+    
+}
+
+.auth .login{
+    border-radius: 24px;
+    width: 100px;
+    height: 40px;
+    color:white;
+    background: #DB3022;
+    border: 1px solid #9B9B9B;
+}
+
+.auth .signup{
+    color: #9B9B9B;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    border-radius: 24px;
+    width: 100px;
+    height: 40px;
+}
+
+.container .nav-icon{
+    width: 22%;
+}
+
+.carouser-item{
+    display: inline-block;
+}
