@@ -223,3 +223,42 @@ nav{
     border: 3px solid #DB3022;
     color: #FFFFFF;
 }
+
+.card .first h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card .first p{
+    font-size: 14px;
+}
+
+.card .first button{
+    width: 210px;
+    height: 36px;
+    border: 1px solid #9B9B9B;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    color: #9B9B9B;
+    margin-top: 10px;
+}
+
+.card .padding{
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 190px;
+}
+
+.card .card-body .order{
+    margin-bottom: 5px;
+}
+
+.card .card-body .summary p{
+    color: #222222;
+    font-weight: bold;
+}
+
+.card .card-body .summary .harga{
+    color: #DB3022;
+    font-weight: bold;
+}
