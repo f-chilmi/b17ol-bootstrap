@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>My bag</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -28,27 +28,60 @@
     </nav>
 
     <div class="container">
+      <h1>My Bag</h1>
         <div class="row">
           <div class="col-8">
-            <h1>My Bag</h1>
             <div class="card">
-                <div class="card-body">
-                  This is some text within a card body.
+                <div class="card-body first">
+                  <input type="checkbox" ><span class="one ml-3">Select all items </span> <span class="two">(2 items selected)</span>
+                  <span class="three"><a href=""> Delete</a></span>
                 </div>
             </div>
             <div class="card">
-                <div class="card-body">
-                  This is some text within a card body.
+              <div class="card-body second">
+                <div class="caption d-flex flex-row align-items-center ">
+                  <input type="checkbox" >
+                  <img class="ml-4" src="./assets/img/jaket.png" alt="">
+                  <div class="nama-toko align-items-center ml-3">
+                    <p class="nama-barang mb-0">Men's formal suit - Black</p>
+                    <p class="toko mb-1">Zalora Cloth</p>
+                  </div>
+                  <div class="ikon-plus-minus d-flex flex-row mr-4">
+                    <button class="minus"><img src="./assets/img/Rectangle 605.svg" alt=""></button>
+                    <p class="align-content-center">1</p>
+                    <button class="plus"><img src="./assets/img/Shape.svg" alt=""></button>
+                  </div>
+                  <p class="harga ml-auto mr-3">$ 20.0</p>                    
                 </div>
-            </div>
+              </div>
+          </div>
             <div class="card">
-                <div class="card-body">
-                  This is some text within a card body.
+                <div class="card-body second">
+                  <div class="caption d-flex flex-row align-items-center ">
+                    <input type="checkbox" >
+                    <img class="ml-4" src="./assets/img/suit.png" alt="">
+                    <div class="nama-toko align-items-center ml-3">
+                      <p class="nama-barang mb-0">Men's jacket jeans</p>
+                      <p class="toko mb-1">Zalora Cloth</p>
+                    </div>
+                    <div class="ikon-plus-minus d-flex flex-row mr-4">
+                      <button class="minus"><img src="./assets/img/Rectangle 605.svg" alt=""></button>
+                      <p class="align-content-center">1</p>
+                      <button class="plus"><img src="./assets/img/Shape.svg" alt=""></button>
+                    </div>
+                    <p class="harga ml-auto mr-3">$ 20.0</p>                    
+                  </div>
                 </div>
             </div>
           </div>
           <div class="col-4">
-            2 of 2
+            <div class="card">
+              <div class="card-body">
+                <h3>Shopping summary</h3>
+                <p>Total price <span class="harga mr-3">$ 40.0</span> </p>
+                <button>Buy</button>
+              </div>
+            </div>
           </div>
         </div>
     </div>
