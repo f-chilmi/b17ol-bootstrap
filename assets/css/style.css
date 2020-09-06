@@ -374,3 +374,249 @@ nav{
 .col-9 .card .card-body .status-order .abu a:hover{
     text-decoration: none;
 }
+
+.container .menu-category p, .container .menu-category p a{
+    color: #9B9B9B;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.col .image-shoes img{
+    width: 263px;
+    height: 329px;
+}
+
+.col .nama-produk{
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.col .merk{
+    font-size: 16p;
+    font-weight: 500px;
+    color: #9B9B9B;
+}
+.col .star{
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.col .star img{
+    width: 18px;
+    height: 18px;
+}
+
+.col .price-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9B9B9B;
+}
+
+.col .price{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.col .color-text{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.col .img-wrapper img{
+    width: 36px;
+    height: 36px;
+    margin: 4px;
+}
+
+.col .img-wrapper .black{
+    border: 1px solid #db3022;
+    border-radius: 25px;
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+}
+
+.size-wrapper .add-min-size .min, .jumlah-wrapper .add-min-size .min{
+    border: 1px solid #D4D4D4;
+    background-color: #D4D4D4;
+    border-radius: 50px;
+    height: 36px;
+    width: 36px;
+    position: relative;
+}
+
+.size-wrapper .add-min-size .min img, .jumlah-wrapper .add-min-size .min img{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.size-wrapper .add-min-size p, .jumlah-wrapper .add-min-size p{
+    margin-bottom: 0px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.size-wrapper .add-min-size .plus, .jumlah-wrapper .add-min-size .plus{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);
+    border: 1px solid #D4D4D4;
+    border-radius: 50px;
+    height: 36px;
+    width: 36px;
+    position: relative;
+}
+
+.size-wrapper .add-min-size .plus img, .jumlah-wrapper .add-min-size .plus img{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.size-wrapper p, .jumlah-wrapper p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.jumlah-wrapper{
+    margin-left: 80px;
+}
+
+.button .abu .abuabu{
+    width: 160px;
+    height: 48px;
+    border: 1.5px solid #222222;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+
+.button .red{
+    width: 343px;
+    height: 48px;
+    background-color: #DB3022;
+    border: 1.5px solid #DB3022;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.tengah .informasi-text{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.tengah .cond-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.tengah .new-text{
+    font-size: 20px;
+    font-size: 500;
+    color: #DB3022;
+}
+
+.tengah .desc-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tengah .p-abu{
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tengah .review-text{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.tengah .row-1{
+    margin-right: 64px;
+}
+
+.tengah .row-1 .big{
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.tengah .row-1 .big .small-grey{
+    font-size: 20px;
+    color: #9B9B9B;
+}
+
+.tengah .row-1 .star img{
+    width: 22px;
+    height: 22px;
+}
+
+.tengah .row-2 p{
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.tengah .row-2 img{
+    width: 16px;
+    height: 16px;
+}
+
+.tengah .row-3 hr{
+    width: 120px;
+    border: 3px solid #DB3022;
+    border-radius: 25px;
+    margin-top: 4px;
+}
+
+.tengah .row-4{
+    color: #9B9B9B;
+    font-size: 14px;
+}
+
+.container hr{
+    width: auto;
+    border: 1px solid #D4D4D4;
+}
+
+.bawah .big-bold{
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+.bawah .grey-small{
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+.bawah .card{
+    width: 206px;
+    height: 246px;
+   
+}
+
+.bawah .card .card-body{
+    padding: 14px;
+}
+
+.bawah .card .card-body .text-judul{
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.bawah .card .card-body .text-harga{
+    font-size: 16px;
+    font-weight: 500;
+    color: #DB3022;
+}
+
+.bawah .card .card-body .text-toko{
+    font-size: 12px;
+    color: #9B9B9B;
+}
