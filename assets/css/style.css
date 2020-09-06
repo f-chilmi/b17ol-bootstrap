@@ -80,7 +80,7 @@ nav{
     position: relative;
 }
 
-.search-wrapper .form-control{
+.form-inline .search-wrapper .form-control{
     width: 507px;
     border: 1px solid #8E8E93;
     border-radius: 23px;
@@ -138,6 +138,18 @@ nav{
     font-size: 34px;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.row .col-8 .card-1 {
+    height: 64px;
+}
+
+.row .col-8 .card-2 {
+    height: 126px;
+}
+
+.row .col-4 .card-3 {
+    height: 190px;
 }
 
 .row .col-8 .card ,.col-4 .card{
@@ -793,4 +805,60 @@ nav{
 .card .card-body .rating img{
     width: 13px;
 
+}
+
+.carousel-card .card-img-overlay{
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: bold;
+    transform: translate(15%, 30%);
+}
+
+.d-flex .kiri{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 52px;
+    height: 52px;
+    top: 59px;
+    left: 50px;
+}
+
+.d-flex .kiri .gambar-button{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.d-flex .kanan{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 52px;
+    height: 52px;
+    top: 59px;
+    right: 50px;
+    transform: rotateY(180deg);
+}
+
+.d-flex .kanan .gambar-button{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.indicator .active{
+    width: 10px;
+    height: 10px;
+    background-color: #8E8A8A;
+}
+
+.indicator .inactive{
+    width: 10px;
+    height: 10px;
+    background-color: #EAEAEA;
+}
+
+.card-co-1{
+    height: 170px;
+}
+
+.card-co-2{
+    height: 120px;
 }
